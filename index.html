@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <div class="rays"></div>
 
-    <nav>
+    <nav data-aos="fade-down">
         <div class="logo">
             <h1>Krsna.</h1>
         </div>
@@ -30,12 +30,12 @@
             </div>
     </nav>
     <main>
-        <div class="center">
-            I'm <span class="name">Krishna</span> <span class="dp"><img src="myimg.jpg" alt=""></span> <br>
-            a Web <span class="dp2"><img src="image.png" alt=""></span> <span class="name2">Developer</span> <br>
-            based in India <span class="dp3"><img src="india.jpg" alt=""></span>
+        <div data-aos="fade-right" class="center">
+            I'm <span  class="name">Krishna</span> <span data-aos="fade-left" class="dp"><img src="myimg.jpg" alt=""></span> <br>
+            a Web <span data-aos="fade-left" class="dp2"><img src="image.png" alt=""></span> <span class="name2">Developer</span> <br>
+            based in India <span data-aos="fade-left" class="dp3"><img src="india.jpg" alt=""></span>
         </div>
-        <div class="intro">
+        <div  data-aos="fade-up" class="intro">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Dicta quo beatae reiciendis quibusdam in aperiam fugit odit consequatur error iusto.</p>
             <a href="Krish_Sharma_Resume (1).pdf" download>
                 <button>Resume &rarr;</button>
@@ -67,5 +67,9 @@
         </div>
       </section>
            -->
+           <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+           <script>
+             AOS.init();
+           </script>
 </body>
 </html>
